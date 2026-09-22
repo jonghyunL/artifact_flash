@@ -1,6 +1,6 @@
 # Running FLASH's benchmarks
 
-Complete [README_SETUP.md](README_SETUP.md) first, including step 7:
+Complete [README_SETUP.md](../modified_driver_code/README_SETUP.md) first, including step 7:
 `verify_driver.sh` must report every check as `PASS`. All benchmarks run inside
 the guest VM. Commands assume you start in the directory that contains
 `artifact_flash/`.

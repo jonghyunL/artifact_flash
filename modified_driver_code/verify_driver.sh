@@ -4,7 +4,7 @@
 # the one currently in memory, are FLASH's modified build rather than the
 # distro's.
 #
-# Run as root after step 6 of ../README_SETUP.md:   sudo ./verify_driver.sh
+# Run as root after step 6 of README_SETUP.md:   sudo ./verify_driver.sh
 #
 # Exit status is 0 only if every check passes.
 

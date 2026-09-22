@@ -21,9 +21,9 @@ phase overlapped with the running workload.
 
 ## Getting started
 
-1. [README_SETUP.md](README_SETUP.md) — set up the TDX host and guest, build
+1. [README_SETUP.md](modified_driver_code/README_SETUP.md) — set up the TDX host and guest, build
    and install the modified driver, and verify it.
-2. [README_BENCHMARK.md](README_BENCHMARK.md) — configure the system, build the
+2. [README_BENCHMARK.md](benchmarks/README_BENCHMARK.md) — configure the system, build the
    benchmarks, and reproduce the figures and tables.
 
 ## Hardware and software required
