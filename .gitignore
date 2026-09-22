@@ -1,0 +1,31 @@
+# Driver source tree fetched by modified_driver_code/apply_to_driver.sh
+/open-gpu-kernel-modules/
+
+# Build output
+*.o
+*.so
+*.ko
+*.mod
+*.mod.c
+benchmarks/table1_bandwidth/memory_transfer_benchmark_sync
+benchmarks/table1_bandwidth/memory_transfer_benchmark_async
+benchmarks/bandwidth_breakdown/bench_decompose
+benchmarks/prealloc/ckpt_prealloc
+benchmarks/flash/ckpt_agent
+benchmarks/flash/ckpt_core
+benchmarks/flash/restore_agent
+
+# Run output
+*.log
+*.jsonl
+*.csv
+results/
+
+# Datasets and models (fetch with benchmarks/download.sh)
+*.json.gz
+ShareGPT_V3_unfiltered_cleaned_split.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
