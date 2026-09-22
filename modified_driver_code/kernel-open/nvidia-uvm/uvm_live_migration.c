@@ -1,7 +1,7 @@
 /*******************************************************************************
-    Live Migration Support for UVM - MINIMAL STARTER VERSION
+    Live Migration Support for UVM
     
-    This is a bare-bones implementation to test that the ioctl routing works.
+    This is a implementation to test that the ioctl routing works.
     Once this compiles and the test passes, you can add the actual logic.
 *******************************************************************************/
 

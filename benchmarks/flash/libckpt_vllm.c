@@ -1744,7 +1744,7 @@ static void dump_engine_state(void)
     if (!out_path) out_path = "/tmp/ckpt_engine_state.json";
     const char *helper_dir = getenv("CKPT_PY_HELPER_DIR");
     if (!helper_dir)
-        helper_dir = "/home/leejongh/migration/open-gpu-kernel-modules/vllm_ckpt";
+        helper_dir = "/path/to/artifact_flash/benchmarks/flash/";
 
     static char pybuf[2048];
     snprintf(pybuf, sizeof(pybuf),
